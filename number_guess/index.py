@@ -26,6 +26,6 @@ while count < math.log(upper - lower + 1, 2):
     elif x < guess:
         print("You guessed too high!")
 
-if count >= math.log(upper - lower + 1, 2):
+if count > math.log(upper - lower + 1, 2):
     print("\nThe number id %d" % x)
     print("\tBetter Luck Next time!")
